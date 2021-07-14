@@ -4,7 +4,7 @@ const config = require('tailwindcss/defaultTheme')
 // eslint-disable-next-line no-undef
 module.exports = {
   purge: {
-    content: ['./components/**/*.js', './pages/**/*.js']
+    content: ['./components/**/*.js', './pages/**/*.js'],
   },
   mode: 'jit',
   theme: {
@@ -13,9 +13,15 @@ module.exports = {
         sans: 'Poppins, -apple-system, BlinkMacSystemFont',
       },
       colors: {
+        red: {
+          ...config.colors.red,
+          500: '#F9004D',
+        },
         gray: {
           ...config.colors.gray,
-          200: '#F4F4F4',
+          200: '#C6C9D8',
+          700: '#191919',
+          800: '#101010',
         },
       },
     },
