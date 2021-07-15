@@ -6,7 +6,7 @@ export default function AboutSection() {
       <div className="container my-20">
         <div className="row">
           <div className="col-5">
-            <Image src="./images/about-img.png" alt="about-img" className="w-full h-auto" />
+            <Image src="/images/about-img.png" alt="about-img" width={395} height={525} />
           </div>
           <div className="offset-1 col-6">
             <h1 className="text-4xl font-medium text-white">About Me</h1>
