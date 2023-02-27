@@ -35,7 +35,7 @@
     "lint-staged": "12.1.5",
     "prettier": "2.3.2",
     "pretty-quick": "3.1.1",
-    "react-inlinesvg": "2.3.0",
+    "react-inlinesvg": "3.0.2",
     "tailwind-bootstrap-grid": "4.0.0",
     "tailwindcss-debug-screens": "2.2.1"
   },
